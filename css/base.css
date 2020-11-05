@@ -243,6 +243,7 @@ a:focus {
   margin: 1vw auto;
   position: relative;
 }
+
 .page-title h1 {
   width: 100%;
   font-size: calc(var(--size-title) / 2);
@@ -258,6 +259,15 @@ a:focus {
   letter-spacing: 0.05em;
   font-family: 'Rossmore', sans-serif;
   opacity: 0.5;
+}
+@media screen and (max-width: 768px) {
+  .page-title {
+    width: 100%;
+  }
+  .page-title p {
+    line-height: 1;
+    font-size: 6vw;
+  }
 }
 .meta {
   grid-area: meta;
