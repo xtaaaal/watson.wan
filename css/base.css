@@ -192,10 +192,13 @@ a:focus {
 .page {
   display: grid;
   padding: 5vw;
-  max-width: 1400px;
+  max-width: 1920px;
   margin: 0 auto;
   grid-template-columns: 100%;
-  grid-template-areas: 'header' 'meta' 'grid';
+  grid-template-areas:
+    'header'
+    'meta'
+    'grid';
   will-change: transform;
 }
 
@@ -228,7 +231,18 @@ a:focus {
   height: 5rem;
   width: 1px;
 }
-
+.page-title {
+  width: 200%;
+  margin: 20px auto;
+  position: relative;
+}
+.page-title h1 {
+  width: 100%;
+  font-size: calc(var(--size-title) / 2);
+  line-height: 1;
+  margin: 0.2em auto;
+  font-weight: 400;
+}
 .meta {
   grid-area: meta;
 }
