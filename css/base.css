@@ -80,7 +80,7 @@ body {
   font-size: 1.25rem;
   font-family: 'Ogg', sans-serif;
   --size-title: 15vw;
-  --aspect-ratio: 3/4;
+  --aspect-ratio: 4/3;
   --imgwidthmax: 900px;
 }
 
