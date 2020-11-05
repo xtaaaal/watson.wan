@@ -136,7 +136,8 @@ body {
   font-family: 'Ogg', sans-serif;
   --font-title: inherit;
   font-size: 1.15rem;
-  --aspect-ratio: 1/1.5;
+  /* --aspect-ratio: 1/1.5; */
+  --aspect-ratio: 3/4;
   --imgwidthmax: 900px;
 }
 
