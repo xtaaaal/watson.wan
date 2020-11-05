@@ -76,7 +76,7 @@ body {
   --color-bg: #000;
   --color-link: #fff;
   --color-link-hover: #d79612;
-  --aspect-ratio: 32/17;
+  /* --aspect-ratio: 32/17; */
   font-size: 1.25rem;
   font-family: 'Ogg', sans-serif;
   --size-title: 15vw;
