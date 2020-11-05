@@ -137,7 +137,7 @@ body {
   --font-title: inherit;
   font-size: 1.15rem;
   --aspect-ratio: 1/1.5;
-  --imgwidthmax: 505px;
+  --imgwidthmax: 900px;
 }
 
 /* Page Loader */
@@ -360,11 +360,11 @@ a:focus {
 .content__item-img {
   --overflow: 40px;
   height: calc(100% + (2 * var(--overflow)));
-  top: calc(-1 * var(--overflow));
+  /* top: calc(-1 * var(--overflow)); */
   width: 100%;
   position: absolute;
   background-size: cover;
-  background-position: 50% 0%;
+  background-position: center;
   will-change: transform;
   opacity: 0.8;
 }
