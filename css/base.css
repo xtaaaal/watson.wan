@@ -13,6 +13,13 @@
 }
 
 @font-face {
+  font-family: 'Rossmore';
+  src: url('font/Rossmore.eot');
+  src: url('font/Rossmore.eot?#iefix') format('embedded-opentype'), url('font/Rossmore.woff2') format('woff2'),
+    url('font/Rossmore.woff') format('woff'), url('font/Rossmore.ttf') format('truetype'), url('font/Rossmore.svg') format('svg');
+}
+
+@font-face {
   font-family: 'ivymode';
   src: url('https://use.typekit.net/af/4aaea0/00000000000000003b9b33c9/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3')
       format('woff2'),
@@ -233,7 +240,7 @@ a:focus {
 }
 .page-title {
   width: 200%;
-  margin: 20px auto;
+  margin: 1vw auto;
   position: relative;
 }
 .page-title h1 {
@@ -243,8 +250,21 @@ a:focus {
   margin: 0.2em auto;
   font-weight: 400;
 }
+.page-title p {
+  text-align: right;
+  font-size: 4em;
+  margin: -4vw auto 0;
+  padding-right: 10vw;
+  letter-spacing: 0.05em;
+  font-family: 'Rossmore', sans-serif;
+  opacity: 0.5;
+}
 .meta {
   grid-area: meta;
+  margin: 0;
+}
+.meta p {
+  margin: 0 auto;
 }
 
 .meta--center {
