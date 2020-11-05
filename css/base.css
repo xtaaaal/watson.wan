@@ -80,6 +80,8 @@ body {
   font-size: 1.25rem;
   font-family: 'Ogg', sans-serif;
   --size-title: 15vw;
+  --aspect-ratio: 3/4;
+  --imgwidthmax: 900px;
 }
 
 .demo-2 {
@@ -136,9 +138,8 @@ body {
   font-family: 'Ogg', sans-serif;
   --font-title: inherit;
   font-size: 1.15rem;
-  /* --aspect-ratio: 1/1.5; */
-  --aspect-ratio: 3/4;
-  --imgwidthmax: 900px;
+  --aspect-ratio: 1/1.5;
+  --imgwidthmax: 505px;
 }
 
 /* Page Loader */
